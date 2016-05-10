@@ -1,40 +1,34 @@
 {
-  "extensions" : [
-    {
-      "name" : "LongitudinalPETCT",
-      "repository" : "https://github.com/QIICR/LongitudinalPETCT",
-      "tagValues" : {
-        "Modality" : ["PT"],
-      }
-    },
-    {
-      "name" : "PETDICOMExtension",
-      "repository" : "https://github.com/QIICR/Slicer-PETDICOMExtension.git",
-      "tagValues" : {
-        "Modality" : ["PT", "RWVM"],
-      }
-    },
-    {
-      "name" : "Reporting",
-      "repository" : "https://github.com/QIICR/Slicer-PETDICOMExtension.git",
-      "tagValues" : {
-        "Modality" : ["SEG"],
-      }
-    },
-    {
-      "name" : "SlicerHeart",
-      "repository" : "https://github.com/SlicerHeart/SlicerHeart.git",
-      "tagValues" : {
-        "SOPClassUID" : ["1.2.840.113543.6.6.1.3.10002"],
-      }
-    },
-    {
-      "name" : "SlicerRT",
-      "repository" : "https://subversion.assembla.com/svn/slicerrt/trunk/SlicerRt/src",
-      "tagValues" : {
-        "Modality" : ["RTDOSE", "RTSTRUCT", "RTPLAN", "RTIMAGE"],
-        "SOPClassUID" : ["1.2.840.10008.5.1.4.1.1.66.1", "1.2.840.10008.5.1.4.1.1.66.2", "1.2.840.10008.5.1.4.1.1.66.3",],
-      }
-    },
-  ]
+	"extensions": [{
+		"name": "LongitudinalPETCT",
+		"repository": "https://github.com/QIICR/LongitudinalPETCT",
+		"tagValues": {
+			"Modality": ["PT"]
+		}
+	}, {
+		"name": "PETDICOMExtension",
+		"repository": "https://github.com/QIICR/Slicer-PETDICOMExtension.git",
+		"tagValues": {
+			"Modality": ["PT", "RWVM"]
+		}
+	}, {
+		"name": "Reporting",
+		"repository": "https://github.com/QIICR/Slicer-PETDICOMExtension.git",
+		"tagValues": {
+			"Modality": ["SEG"]
+		}
+	}, {
+		"name": "SlicerHeart",
+		"repository": "https://github.com/SlicerHeart/SlicerHeart.git",
+		"tagValues": {
+			"SOPClassUID": ["1.2.840.113543.6.6.1.3.10002"]
+		}
+	}, {
+		"name": "SlicerRT",
+		"repository": "https://subversion.assembla.com/svn/slicerrt/trunk/SlicerRt/src",
+		"tagValues": {
+			"Modality": ["RTDOSE", "RTSTRUCT", "RTPLAN", "RTIMAGE"],
+			"SOPClassUID": ["1.2.840.10008.5.1.4.1.1.66.1", "1.2.840.10008.5.1.4.1.1.66.2", "1.2.840.10008.5.1.4.1.1.66.3"]
+		}
+	}]
 }
