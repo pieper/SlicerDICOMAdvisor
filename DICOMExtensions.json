@@ -33,6 +33,7 @@
       "repository" : "https://subversion.assembla.com/svn/slicerrt/trunk/SlicerRt/src",
       "tagValues" : {
         "0008,0060" : ["RTDOSE", "RTSTRUCT", "RTPLAN", "RTIMAGE"],
+        "0008,0016" : ["1.2.840.10008.5.1.4.1.1.66.1", "1.2.840.10008.5.1.4.1.1.66.2", "1.2.840.10008.5.1.4.1.1.66.3",],
       }
     },
   ]
